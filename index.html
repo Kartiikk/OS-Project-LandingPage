@@ -2,33 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Landing Page</title>
+    <title>OS Space</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script>
-    
-
-      
-  </script>
+    <script src="https://kit.fontawesome.com/7a89849088.js" crossorigin="anonymous"></script>    <link rel="script" href="script.js">
 
   </head>
 
   <body>
     <nav class="navbar">
-      <a href="#books">Contact-Us</a>
-      <div class="dropdown">
-          <button class="dropbtn">Simulations
-              <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-              <a href="#">CPU Scheduling</a>
-              <a href="#">Peterson’s Algorithm</a>
-              <a href="#">FCFS Disk Scheduling</a>
-              <a href="#">Optimal Page Replacement Algorithm</a>
-          </div> 
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="#" class="logo">OS.space</a>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Simulations</a>
+            <ul class="dropdown">
+              <li><a href="#page-two">CPU Scheduling</a></li>
+              <li><a href="#page-three">Peterson’s Algorithm</a></li>
+              <li><a href="#page-four">FCFS Disk Scheduling</a></li>
+              <li><a href="#page-five">Optimal Page Replacement Algorithm</a></li>
+            </ul>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact-us" class="navbar-link">Contact Us</a>
+          </li>
+        </ul>
       </div>
-  </nav>
+    </nav>
+    
   
   
    
@@ -41,15 +43,7 @@
         Let’s meet OS
     </div>
 
-    <!-- <div class="header-right">
-        <div class="about">
-            About
-        </div>
-        <div class="contact-us">
-            Contact Us
-        </div>
-    </div>   -->
-   
+
     <div class="container">
 
       <div class="part-one">
@@ -77,19 +71,16 @@
           Operating Systems
         </div>
         <div class="content">
-          operating system (OS) is the program that, after being initially loaded into the computer by a boot program, 
+          Operating system (OS) is the program that, after being initially loaded into the computer by a boot program, 
           manages all of the other application programs in a computer. The application programs make use of the operating system 
           by making requests for services through a defined application program interface (API). In addition, users can interact 
           directly with the operating system through a user interface, such as a command-line interface (CLI) or a graphical UI (GUI).
         </div>
-        <button class="more">
-          Read More
-        </button>
       </div>
     </div>
 
 
-    <div class = "page-two">
+    <div class = "page-two" id="page-two">
       <div class="two-left">
         <div  class="t-l-circle">
           <img class="circlee" src="./Images&stuff/fifth(2).jpg">
@@ -110,7 +101,7 @@
       </div>
     </div>
 
-    <div class="page-three">
+    <div class="page-three" id="page-three">
       <div class = "three-left">
         <div class="t-l-heading">
           Peterson’s Algorithm
@@ -132,7 +123,7 @@
       </div>
     </div>
 
-    <div class ="page-four">
+    <div class ="page-four" id="page-four">
       <div class="four-left">
         <div class="f-l-image">
           <img src ="./Images&stuff/fcfs(2).png" class="fcfs">
@@ -152,7 +143,7 @@
       </div>
     </div>
     
-    <div class="page-five">
+    <div class="page-five" id="page-five">
       <div class="five-left">
         <div class="five-left-heading">
           Optimal Page Replacement Algorithm
@@ -169,4 +160,102 @@
         <img src ="Images&stuff/Untitled.png">
       </div>
     </div>
+
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+ 
+      <div class="card-container">
+        <div class="card-row top-row">
+       
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images&stuff/Team-images/saurav2.png" alt="Team Member 2">
+          </div>
+          <div class="card-content">
+            <h3>Saurav Navdhare</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images&stuff/Team-images/aum2.png" alt="Team Member 1">
+          </div>
+          <div class="card-content">
+            <h3>Aum Pandya</h3>
+            <div class="social-links">
+              <a href="https://github.com/Aum3010/"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images&stuff/Team-images/aditya1.png" alt="Team Member 2">
+          </div>
+          <div class="card-content">
+            <h3>Aditya Jethani</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="card-row bottom-row">
+      <div class="card">
+        <div class="card-image">
+          <img src="./Images&stuff/Team-images/akshar3.png" alt="Team Member 2">
+        </div>
+        <div class="card-content">
+          <h3>Akshar Thakor</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="./Images&stuff/Team-images/smit3.png" alt="Team Member 2">
+        </div>
+        <div class="card-content">
+          <h3>Smit Sutariya</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="./Images&stuff/Team-images/kartik2.png" alt="Team Member 2">
+        </div>
+        <div class="card-content">
+          <h3>Kartik Patel</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
   </body>
